@@ -1,6 +1,10 @@
 import { Box } from "@chakra-ui/react";
-
+import Gradient from "../components/gradient";
 const Home = () => {
-	return <Box>indexPage</Box>;
+  return (
+    <Box>
+      <Gradient />
+    </Box>
+  );
 };
 export default Home;
