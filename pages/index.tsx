@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <Box>
       <Gradient />
+      <Gradient />
     </Box>
   );
 };
