@@ -6,7 +6,7 @@ const spin = keyframes`
   to {transform: rotate(-360deg)}
 `;
 
-const Gradient = () => {
+export const Gradient = () => {
   const [colorHUEl, setColorHUEl] = useState(Math.floor(Math.random() * 180));
   const [colorHUEr, setColorHUEr] = useState(
     Math.floor(Math.random() * 180) + 180
@@ -40,5 +40,3 @@ const Gradient = () => {
     />
   );
 };
-
-export default Gradient;
